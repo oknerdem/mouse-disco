@@ -1,12 +1,12 @@
-import { useState } from 'react';
-import Header from '@/components/header';
-import styles from '@/styles/Home.module.css';
+import { useState } from "react";
+import Header from "@/components/header";
+import styles from "@/styles/Home.module.css";
 
 export default function Home() {
-  const title = 'Mouse Disco';
-  const content = 'A simple mouse disco app';
+  const title = "Mouse Disco";
+  const content = "A simple mouse disco app";
 
-  const [color, setColor] = useState<string>('white');
+  const [color, setColor] = useState<string>("white");
 
   const blocks = [
     {
@@ -16,21 +16,47 @@ export default function Home() {
 
   const changeColor = (e: any) => {
     const colors = [
-      'red',
-      'green',
-      'blue',
-      'yellow',
-      'purple',
-      'pink',
-      'orange',
-      'black',
-      'gray',
-      'teal',
-      'cyan',
-      'indigo',
-      'lime',
-      'fuchsia',
-      'violet',
+      "red",
+      "green",
+      "blue",
+      "yellow",
+      "purple",
+      "pink",
+      "orange",
+      "black",
+      "gray",
+      "teal",
+      "cyan",
+      "indigo",
+      "lime",
+      "fuchsia",
+      "violet",
+      "brown",
+      "maroon",
+      "olive",
+      "navy",
+      "magenta",
+      "silver",
+      "gold",
+      "coral",
+      "crimson",
+      "khaki",
+      "plum",
+      "aquamarine",
+      "bisque",
+      "blueviolet",
+      "burlywood",
+      "cadetblue",
+      "chartreuse",
+      "chocolate",
+      "cornflowerblue",
+      "darkgoldenrod",
+      "darkgreen",
+      "darkkhaki",
+      "darkmagenta",
+      "darkolivegreen",
+      "darkorange",
+      "darkorchid",
     ];
 
     const randomColor = colors[Math.floor(Math.random() * colors.length)];
@@ -38,7 +64,7 @@ export default function Home() {
     e.target.style.backgroundColor = color;
 
     setTimeout(() => {
-      e.target.style.backgroundColor = 'white';
+      e.target.style.backgroundColor = "white";
     }, 4000);
   };
 
@@ -51,7 +77,7 @@ export default function Home() {
           {blocks.map((block, index) => (
             <div key={index} className={styles.block}>
               {Array(block.blockCount)
-                .fill('')
+                .fill("")
                 .map((_, i) => (
                   <div
                     key={i}
