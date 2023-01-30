@@ -19,7 +19,7 @@
   margin-top: 0.6rem;
   margin-left: auto;
   margin-right: auto;
-  @apply dark:bg-fuchsia-500 bg-violet-600;
+  @apply dark:bg-fuchsia-500 bg-fuchsia-600;
 }
 
 .blocks {
