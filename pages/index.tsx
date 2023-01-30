@@ -8,6 +8,12 @@ export default function Home() {
 
   const [color, setColor] = useState<string>('white');
 
+  const blocks = [
+    {
+      blockCount: 60,
+    },
+  ];
+
   const changeColor = (e: any) => {
     const colors = [
       'red',
@@ -35,12 +41,6 @@ export default function Home() {
       e.target.style.backgroundColor = 'white';
     }, 4000);
   };
-
-  const blocks = [
-    {
-      blockCount: 60,
-    },
-  ];
 
   return (
     <>
