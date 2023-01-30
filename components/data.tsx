@@ -44,7 +44,7 @@ const colors = [
 
 const blocks = [
   {
-    blockCount: 60,
+    blockCount: 70,
   },
 ];
 
