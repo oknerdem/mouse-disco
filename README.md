@@ -1,4 +1,4 @@
-##### <sup>🍃</sup> **Mouse Disco App** <sub>🍃</sub>
+##### <sup>🎈</sup> **Mouse Disco App** <sub>🎈</sub>
 
 ###### _Built with_ Next.js & TailwindCSS & TypeScript.
 
