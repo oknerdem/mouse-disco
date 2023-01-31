@@ -3,7 +3,7 @@
 }
 
 .title {
-  @apply md:fixed absolute md:top-20 top-8 text-xl font-semibold flex gap-1;
+  @apply md:fixed absolute md:top-10 top-8 text-xl font-semibold flex gap-1;
 }
 
 .blocks {
