@@ -2,4 +2,4 @@
 
 ###### _Built with_ Next.js & TailwindCSS & TypeScript.
 
-![Mouse Disco App Screenshot](./public/Tabs.png)
+![Mouse Disco App Screenshot](./public/Mouse.png)
