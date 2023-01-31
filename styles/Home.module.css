@@ -3,14 +3,7 @@
 }
 
 .title {
-  @apply md:fixed absolute md:top-20 top-4 text-xl font-semibold;
-}
-
-.title::after {
-  content: '';
-  display: block;
-  @apply dark:bg-fuchsia-500 bg-fuchsia-600 w-1/2 h-[2px]
-  mx-auto mt-3;
+  @apply md:fixed absolute md:top-20 top-8 text-xl font-semibold flex gap-1;
 }
 
 .blocks {
