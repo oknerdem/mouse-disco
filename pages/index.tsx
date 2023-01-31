@@ -21,7 +21,9 @@ export default function Home() {
       <Header title={title} content={content} />
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <BsMouse3Fill />
+          <sup>
+            <BsMouse3Fill />
+          </sup>
           {title}
         </h1>
         <div className={styles.blocks}>
